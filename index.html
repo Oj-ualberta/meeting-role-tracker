@@ -7,23 +7,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Meeting Role Tracker</h1>
-    </header>
-    <main>
-        <table>
-            <thead>
-                <tr>
-                    <th>Role</th>
-                    <th>Assigned Member</th>
-                </tr>
-            </thead>
-            <tbody id="rolesTable">
-                <!-- Role rows will be dynamically generated -->
-            </tbody>
-        </table>
-        <button onclick="nextMeeting()">Next Meeting</button>
-    </main>
+    <div class = "container">
+        <header>
+            <h1>Meeting Role Tracker</h1>
+        </header>
+        <main>
+            <div class = "flex-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Role</th>
+                            <th>Assigned Member</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rolesTable">
+                        <!-- Role rows will be dynamically generated -->
+                    </tbody>
+                </table>
+            </div>
+            <button onclick="nextMeeting()">Next Meeting</button>
+        </main>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
