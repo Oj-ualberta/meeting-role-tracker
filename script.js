@@ -1,6 +1,6 @@
 // Team members and roles
-const members = ["Alice", "Bob", "Charlie", "Dana", "Evan"];
-const roles = ["Facilitator", "Note Taker", "Time Keeper", "Presenter", "Tech Support"];
+const members = ["Braden", "Ojas", "Remy", "Renae", "Xander"];
+const roles = ["Leader", "Note Taker", "Time Keeper", "Evaluator", "Coordinator"];
 
 let currentIndex = 0;
 
